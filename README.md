@@ -1,5 +1,5 @@
 # Assignment Project
-Implementation of an API aggregator backend project. Application queues outgoing requests for same API. After the queue size reaches a certain number or the oldest item in the queue reaches a certain duration, application creates one aggregated outgoing request and returns corresponding responses to seperate clients.
+Implementation of an API aggregator backend project. Application queues outgoing requests for same API. After the queue size reaches a certain number or the oldest item in the queue reaches a certain duration, application creates one aggregated outgoing request from the queued outgoing requests and returns corresponding responses to seperate clients.
 
 ## Steps to run
 1. Build the project using
